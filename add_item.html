@@ -6,7 +6,8 @@
     <link href="static/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="static/styles/jumbotron-narrow.scss" rel="stylesheet">
-    <link href="static/styles/signup.scss" rel="stylesheet">
+    <!--<link href="static/styles/signup.scss" rel="stylesheet">-->
+    <link href="static/styles/jumbotron-narrow.scss" rel="stylesheet">
     
   </head>
  
@@ -16,29 +17,22 @@
       <div class="header">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" ><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="signed_in.html">Sign In</a></li>
-            <li role="presentation" class="active"><a href="#">Sign Up</a></li>
+            <li role="presentation" class="active"><a href="#">Add | Create</a></li>
+            <li role="presentation"><a href="bucket.html">All Listings</a></li>
+            <li role="presentation" ><a href="my_bucket.html">My Listings</a></li>
+            <li role="presentation" ><a href="index.html">Log Out</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">ADD | LIKE | UPVOTE | PARTICIPATE</h3>
       </div>
  
-      <div class="jumbotron">
-          <div>
-            <h3>Add Bucket List Item</h3>
+      <form class="jumbotron">
+          <div class="form-group">
+              <label>ADD | PARTICIPATE </label>
+              <textarea  class="form-control" aria-placeholder="Type Entry Here"></textarea>
           </div>
-          <div>
-        <textarea item-width="max" placeholder="Add bucketlist item"></textarea>
-          </div>
-
-        <p>
-            <a class="btn btn-lg btn-success" href="#" role="button">Submit</a>
-        </p>
-        
-      </div>
- 
-       
+          <button type="submit" class="btn btn-primary">Post</button>
+      </form>
  
       <footer class="footer">
         <p>&copy; poemanslist 2017</p>

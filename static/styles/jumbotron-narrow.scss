@@ -90,5 +90,12 @@ h4 {
 
 .jumbotron h1 {
   color: #1e90ff;
-  font-size: 90px;
+  font-size: 50px;
+}
+textarea { 
+  resize:both; 
+  max-height:900px; 
+  max-width:900px;
+  min-height:200px;
+  min-width:200px; 
 }
